@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 
 const SocketContext = createContext(null);
 
-const SOCKET_URL = process.env.REACT_APP_SOCKET_URL || "http://192.168.0.139:5000";
+const SOCKET_URL = process.env.REACT_APP_SOCKET_URL || "https://talkrandom.vercel.app";
 
 export const SocketProvider = ({ children }) => {
   const socketRef = useRef(null);

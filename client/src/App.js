@@ -138,4 +138,4 @@ const App = () => (
   </SocketProvider>
 );
 
-export default A
+export default App;
