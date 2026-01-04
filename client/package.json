@@ -1,5 +1,5 @@
 {
-  "name": "omegle-client",
+  "name": "talkrandom-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
